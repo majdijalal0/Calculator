@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/std"
+        android:title="Standard"
+        android:icon="@drawable/baseline_calculate_24"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/scientifique"
+        android:title="Scientifique"
+        android:icon="@drawable/baseline_science_24"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/programmeur"
+        android:title="Programmeur"
+        android:icon="@drawable/baseline_code_24"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/date"
+        android:title="Calcul de la date"
+        android:icon="@drawable/baseline_calendar_month_24"
+        app:showAsAction="ifRoom|withText"/>
+</menu>
